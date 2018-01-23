@@ -1,3 +1,14 @@
-.hello {
-  font-size: 72pt;
+
+$bgpage: rgb(240,240,240);
+
+.pt-56px {
+  padding-top: 56px;
+}
+
+.pt-36px {
+  padding-top: 36px;
+}
+
+body {
+  background: $bgpage;
 }
