@@ -5,7 +5,6 @@ import { HashRouter as Router, Link } from "react-router-dom"
 import AppBar from "material-ui/AppBar"
 import Toolbar from "material-ui/Toolbar"
 import IconButton from "material-ui/IconButton"
-import Drawer from "material-ui/Drawer"
 import CloseIcon from "react-icons/lib/md/close"
 import List from "material-ui/List"
 import ListItem from "material-ui/List/ListItem"
@@ -20,6 +19,8 @@ import MenuIcon from "material-ui-icons/Menu"
 import WebDesignIcon from "react-icons/lib/md/web"
 import GraphicDesignIcon from "react-icons/lib/md/local-pizza"
 import PhotographyIcon from "react-icons/lib/md/camera"
+
+import Drawer from "./Drawer"
 
 // Logo
 import logoImg from "./logo-dsktp.png"
@@ -40,7 +41,6 @@ export default class TopNavbarB extends Component {
 				return { open: !prevState.open }
 			})
 		}
-		const tgt = document.querySelector("[data-mui-portal] [aria-hidden]")
 		return (
 			<Router>
 
