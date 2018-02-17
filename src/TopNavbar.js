@@ -72,6 +72,7 @@ export default class TopNavbarB extends Component {
 
 					<Drawer
 						open={this.state.open}
+						onClose={handleDrawerClose}
 						anchor={window.innerWidth >= 768 ? "right" : "top"}
 					>
 						<div
